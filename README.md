@@ -2,7 +2,7 @@
  * @Author: PengJie pengjieb@mail.ustc.edu.cn
  * @Date: 2025-04-01 17:00:26
  * @LastEditors: PengJie pengjieb@mail.ustc.edu.cn
- * @LastEditTime: 2025-04-01 18:04:46
+ * @LastEditTime: 2025-04-01 19:19:57
  * @FilePath: /amc_rebuttal/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -15,6 +15,10 @@ Figure 1. The gradient conflict between different modalities in the MIMIC-IV dat
 <img src="img/more_token_fusion-modality_quality.png" alt="My Image" width="1000">
 
 Figure 2. The case study about the modality data quality identified by our proposed modality importance. The image in the left side obtain the lowest modality importance, and the right side image obtain the highest modality importance.
+
+<img src="img/more_token_fusion-modality_replace_case_study.png" alt="My Image" width="1000">
+
+Figure 3. The case study on token replacement within the MIMIC-IV dataset. Tokens are color-coded by modality: red blocks represent Code tokens, purple blocks indicate Lab tokens, and blue blocks signify Note tokens. The first row shows the token sequence before replacement. Each subsequent row displays the token sequence after replacement for a different instance. We random select 100 instance from the testing set for the visualization.
 
 
 | **MIMIC-IV** | Code | Note | Lab || **ADNI** | Genomic | Image | Biospecimen | Clinical |
