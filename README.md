@@ -1,3 +1,11 @@
+<!--
+ * @Author: PengJie pengjieb@mail.ustc.edu.cn
+ * @Date: 2025-04-02 19:41:14
+ * @LastEditors: PengJie pengjieb@mail.ustc.edu.cn
+ * @LastEditTime: 2025-04-02 19:38:38
+ * @FilePath: /amc_rebuttal/README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 
 <img src="img/more_token_fusion-modality_gradient_conflict.png" alt="My Image" width="1000">
 
@@ -12,6 +20,9 @@
 
 **Figure 3.** The case study on token replacement within the MIMIC-IV dataset. Tokens are color-coded by modality: red blocks represent Code tokens, purple blocks indicate Lab tokens, and blue blocks signify Note tokens. The first row shows the token sequence before replacement. Each subsequent row displays the token sequence after replacement for a different instance. We random select 100 instance from the testing set for the visualization.
 
+<img src="img/more_token_fusion-token_replacement.png" alt="My Image" width="1000">
+
+**Figure 4.** The example of contrastive learning and token replacement.
 
 | **MIMIC-IV** | Code | Note | Lab || **ADNI** | Genomic | Image | Biospecimen | Clinical |
 |---|:---:|:---:|:---:|-|---|:---:|:---:|:---:|:---:|
